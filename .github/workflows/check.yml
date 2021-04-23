@@ -13,8 +13,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - model: "SM-N770F"
-            region: "AUT"
+          - model: "SM-M205F"
+            region: "INS"
 
     steps:
       - name: Checkout repo
