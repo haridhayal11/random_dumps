@@ -15,8 +15,8 @@ jobs:
         include:
           - model: "SM-M205F"
             region: "SLK"
-          - model: "SM-G950F"
-            region: "DBT"
+          - model: "SM-M305F"
+            region: "SLK"
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
