@@ -17,6 +17,8 @@ jobs:
             region: "SLK"
           - model: "SM-M305F"
             region: "INS"
+          - model: "SM-A405FN"
+            region: "DBT"            
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
