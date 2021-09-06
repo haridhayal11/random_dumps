@@ -15,8 +15,8 @@ jobs:
         include:
           - model: "SM-M205F"
             region: "SLK"
-          - model: "SM-M305F"
-            region: "INS"
+          - model: "SM-J600G"
+            region: "SLK"
           - model: "SM-A405FN"
             region: "DBT"            
     steps:
