@@ -13,12 +13,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - model: "SM-M205F"
-            region: "SLK"
-          - model: "SM-J600G"
-            region: "SLK"
-          - model: "SM-A405FN"
+          - model: "SM-G991B"
+            region: "DBT"
+          - model: "SM-G996B"
             region: "DBT"            
+          
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
