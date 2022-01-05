@@ -15,7 +15,10 @@ jobs:
         include:
           - model: "SM-G991B"
             region: "DBT"
-
+          - model: "SM-G996B"
+            region: "DBT"
+          - model: "SM-G998B"
+            region: "DBT"            
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
